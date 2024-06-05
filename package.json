@@ -1,6 +1,7 @@
 {
   "name": "angular-buzzfeed",
   "version": "0.0.0",
+  "homepage": "https://thompsoncarlos.github.io/angular-buzzfeed/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
