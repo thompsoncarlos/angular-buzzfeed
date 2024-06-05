@@ -22,17 +22,64 @@
   color: white;
 }
 
+@media screen and (max-width: 576px) {
+  .quizz__wordmark {
+    font-size: 42px;
+  }
+
+  .quizz__logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .quizz__title {
+    font-size: 12px;
+  }
+
+  .quizz__questions {
+    height: 60px;
+  }
+
+  .quizz__questions h2 {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .quizz__options {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .quizz__options .btn-option {
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .quizz__results {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
+
+  .quizz__results .quizz__results_description {
+    font-size: 22px;
+  }
+
+}
 
 .quizz__title {
-  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
   text-align: center;
 }
 
-.quizz__title > img {
+.quizz__title .quizz__hero {
   margin-top: 10px;
   width: 100%;
-  /* width: 450px; */
-  height: 350px;
+  height: 280px;
 }
 
 .quizz__questions {
@@ -43,9 +90,10 @@
   border-radius: 8px;
   background-color: #644ed2;
   width: 100%;
-  height: 150px;
+  height: 100px;
   font-size: 20px;
   font-family: "Segoe UI";
+  padding: 10px;
   margin-bottom: 20px;
 }
 
