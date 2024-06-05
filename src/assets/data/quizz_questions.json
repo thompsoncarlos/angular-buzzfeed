@@ -1,0 +1,47 @@
+{
+  "title": "Magneto ou Xavier: de que lado você acabaria em X-MEN’97? ",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Você acredita na coexistência pacífica entre humanos e mutantes ?",
+      "options": [
+        { "id": 1, "name": "Sim, creio que este sonho é possível e que saberemos aprender a viver em harmonia juntos", "alias": "A" },
+        { "id": 2, "name": "Não, humanos temem a evolução e jamais aceitarão a inevitável ascensão mutante!", "alias": "B" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Qual desses seria um lugar perfeito para morar? ?",
+      "options": [
+        { "id": 1, "name": "Um satélite bem afastado da Terra com pessoas que pensam igual a você", "alias": "B" },
+        { "id": 2, "name": "Uma mansão grande, espaçosa e acolhedora que transmita a sensação de segurança e de um lar", "alias": "A" },
+        {
+          "id": 3,
+          "name": "Um império alienígena ultra-tecnológico",
+          "alias": "A"
+        },
+        { "id": 4, "name": "Uma ilha paradisíaca com seus semelhantes vivendo sem serem perseguidos", "alias": "B" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Você enfrentaria outros mutantes pela sua causa ?",
+      "options": [
+        {
+          "id": 1,
+          "name": "Só se fosse absolutamente necessário. Eu prefiro me juntar a eles!",
+          "alias": "A"
+        },
+        {
+          "id": 2,
+          "name": "Sei que devo enfrentar alguns mutantes para atingir meus objetivos!",
+          "alias": "B"
+        }
+      ]
+    }
+  ],
+  "results": {
+    "A": "Professor X:  Assim como o professor Xavier, você é uma pessoa extremamente inteligente, que costuma pensar muito antes de tomar qualquer decisão e que sempre tem os melhores conselhos.",
+    "B": "Magneto: Assim como Magneto, você é uma pessoa de personalidade forte, um pouco impulsiva, muito focada e que luta fielmente por seus ideais sem medo das consequências."
+  }
+}
